@@ -36,17 +36,17 @@ function Featured() {
 
     return (
   
-        <div className='w-screen h-[500px] w-full py-4 px-4 relative group mx-auto' >
+        <div className='w-screen h-[500px] py-4 px-4 relative group mx-auto' >
             <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
                 style={{backgroundImage: `url(${sliders[currentIndex].url})`}}
             ></div>
             <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full
             bg-orange-700 text-white cursor-pointer'>
-                <BsChevronCompactLeft size={25} onClick={prevSlider}/>
+                <BsChevronCompactLeft size={25} onClick={prevSlider} className='hidden sm:block'/>
             </div>
             <div className='hidden group-hover:block  absolute top-[50%] -translate-x-100 translate-y-[50%] right-5 text-2xl rounded-full
             bg-orange-700 text-white cursor-pointer'>
-                <BsChevronCompactRight size={25} onClick={nextSlider}/>
+                <BsChevronCompactRight size={25} onClick={nextSlider} className='hidden sm:block'/>
             </div>
             <div className='flex top-4 justify-center py-2'>
                 {
