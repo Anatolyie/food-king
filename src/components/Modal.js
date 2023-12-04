@@ -11,8 +11,8 @@ function Modal({ activeID, setShowModal }) {
          <div className="w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform
          -translate-x-1/2 -translate-y-1/2 p-5 overflow-auto h-75vh">
              <div>
-                 <figure>
-                     <img className="rounded-[8px]" src={menuInfo.image} alt="portofolio background img" />
+                 <figure className='w-[550px] h-[330px]'>
+                     <img className="rounded-[8px] w-full h-full object-cover" src={menuInfo.image} alt="portofolio background img" />
                  </figure>
              </div>
 

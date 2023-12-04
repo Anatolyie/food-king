@@ -38,9 +38,9 @@ function Meal() {
             <div className='flex flex-col lg:flex-row justify-center'>
                 <div className='flex justify-center md:justify-center '>
                     <button onClick={() => setFoods(mealData)} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>All</button>
-                    <button onClick={() => filltercategory('pizza')} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>Pizza</button>
-                    <button onClick={() => filltercategory('chicken')} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>Chicken</button>
-                    <button onClick={() => filltercategory('salad')} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>Salad</button>
+                    <button onClick={() => filltercategory('Pizza')} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>Pizza</button>
+                    <button onClick={() => filltercategory('Chicken')} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>Chicken</button>
+                    <button onClick={() => filltercategory('Salad')} className='m-1 border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 hover:border-orange-700'>Salad</button>
                 </div>
             </div>
 
